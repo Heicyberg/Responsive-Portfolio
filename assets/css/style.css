@@ -1,0 +1,353 @@
+
+   body{
+       
+       background-image: url("../images/back1.png");
+       height: 100%;
+       margin: 0;
+    
+    }
+
+   #block{
+     min-height: 100%;
+     margin-bottom: -50px;
+   }
+   
+   #block1{
+       background: #ffffff;
+       height: 80px;
+       width: 100%;
+       border-bottom: #cccccc;
+       border-bottom-style: solid;
+       margin-right:  0px;
+       position: fixed;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+
+   
+   
+   #block1center{
+     
+       width: 1000px;
+       height: 100%;
+       margin: auto;
+   }
+
+   #name{
+       background: #4aaaa5;
+       color: #ffffff;
+       height:80px;
+       width: 220px;
+       margin-left: 0px;
+       font-size: x-large;
+       float: left;
+       display: flex; 
+   }
+
+   #h1{
+       align-self: center;
+       padding-top: 0px;
+       margin: auto;
+   }
+
+   a:link{
+       text-decoration: none;
+   }
+
+   a:hover{
+       font-size: 150%;
+   }
+
+   #button1, #button2, #button3{
+       float: right;
+       color: #cccccc;
+       margin-top: 30px;
+   }
+   .buttons{
+       margin-right: 30px;
+   }
+   #button1{
+       margin-right: 0px;
+       border-left-style: hidden;
+       border-left-color: #cccccc;
+       margin-left: 0px;
+       padding-left: 25px;
+  
+   }
+
+   #button2{
+       border-left-color: #cccccc;
+       border-right-color: #cccccc;
+       border-left-style: solid;
+       border-right-style: solid;
+       padding-left: 25px;
+       padding-right: 25px;
+   }
+   
+   #button3{
+    margin-right: 0px;
+    border-right-style: hidden;
+    border-right-color: #cccccc;
+    padding-right: 25px;
+
+}
+   .clearfix{
+       clear: both;
+   }
+   #block2{
+       padding-top: 40px;
+       margin-block-start: 20px;
+       font-family: Arial, Helvetica, sans-serif;
+   }
+   
+   #contentHeader{
+       background: #ffffff;
+       border-bottom: #cccccc;
+       border-bottom-style: solid;
+       border-bottom-width: 2px;
+       margin: auto;
+   }
+
+   #contentMain{
+       background: #ffffff;
+       padding: 20px;
+       width: 960px;
+       text-align: inherit;
+       overflow: auto;
+       margin: auto;
+   }
+   
+   #pic1 {
+       height: 200px;
+       float: left;
+       margin-inline-end: 20px;
+   }
+
+   #brif{
+       margin-left: 100px;
+       text-align: inherit;
+       font-size: larger;
+       line-height: 25px;
+        }
+    
+   h3{
+       clear: both;
+       padding-top: 20px;
+       font-size: x-large;
+
+   }
+
+   #skills{
+       font-size: large;
+       line-height: 25px;
+       padding-inline-start: 50px;
+       padding-inline-end: 50px;
+   }
+
+   #footer{
+       clear: both;
+       background: grey;
+       border-top:8px solid #4aaaa5;
+       text-align: center;
+       margin-bottom: 0px;
+       position: sticky;
+   }
+   
+   #footer,#push{
+       height:50px;
+   }
+
+
+   #portfolio{
+       font-family: 'Times New Roman', Times, serif;
+       color:#4aaaa5;
+       font-size: xx-large;
+   }
+
+   .boxes{
+       width: 100%;
+       height: 600px;
+    
+   }
+
+   #box1,#box2{
+       float: left;
+       height: 30%;
+       width: 30%;
+       margin: 0% 2.5% 5% 2.5%;
+   }
+
+  
+ 
+
+   #box3,#box4{
+    float: left;
+    height: 30%;
+    width: 30%;
+    margin: 0% 2.5% 5% 2.5%;
+}
+
+#box5{
+    float: left;
+    height: 30%;
+    width: 30%;
+    margin: 0% 2.5% 5% 2.5%;
+}
+
+  #box1{
+    background: url("../images/dis.png");
+    background-size: 100%;   
+   }
+
+   #box2{
+   background: url("../images/intc.jpg");
+   background-size: 100%;   
+   }
+
+   #box3{
+   background: url("../images/jd.jpg");
+   background-size: 100%;   
+   }
+
+   #box4{
+    background: url("../images/wfc.jpg");
+    background-size: 100%;   
+   }
+
+  #box5{
+    background: url("../images/googl.jpg");
+    background-size: 100%;   
+  }
+
+  #box1,#box2,#box3,#box4,#box5{
+    display: flex;
+  }
+
+  .inboxStyle{
+      background-color: #4aaaa5;
+      width: 100%;
+      height: 30%;
+      align-self: flex-end;
+      margin-bottom: 5%;
+      display:flex;
+  }
+
+  .inboxText{
+      text-align:center;
+      color: #ffffff;
+      align-self:center;
+      margin: auto;
+      padding-top: 0px;
+      font-family: 'Georgia', Times, serif;
+  }
+
+  #cont{
+      margin: auto;
+      color:#cccccc;
+      font-size: large;
+  }
+ 
+  
+
+  .inputbox{
+      width: 100%;
+      height: 30px;
+      margin: 0px;
+  }
+
+  #inputMessage{
+      width: 100%;
+      height: 300px;
+  }
+
+  #button{
+      background: #4aaaa5;
+      font-size: large;
+      color: #ffffff;
+      border-color: #4aaaa5;
+      height: 30px;
+      width: 90px;
+      margin-top: 10px;
+  }
+  #button:hover{
+      background: yellowgreen;
+      border-color: yellowgreen;
+  }
+  
+
+  @media screen and (max-width: 980px) {
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    
+  }
+
+  @media screen and (max-width: 640px) {
+
+    #block1{
+        background: #ffffff;
+        height: 90px;
+        width: 100%;
+        border-bottom: #cccccc;
+        border-bottom-style: solid;
+        margin-right:  0px;
+        position: static;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        overflow: hidden;
+        
+    }
+    
+    #block1center{
+     
+        width:100%; 
+        height: 100%;
+        margin: auto;
+    }
+ 
+    #name{
+        background: #4aaaa5;
+        color: #ffffff;
+        padding-left: 10px;
+        padding-right: 10px; 
+        margin-left: 0px;
+        width: 100%;
+        height: 50%;
+        font-size: large;
+        float: left;
+        display: flex; 
+    }
+
+    .clearfixsm{
+        clear: both;
+    }
+
+    .buttons{
+        width: 90%;
+        align-self: center;
+        margin: 0px;
+    }
+    
+    #button1{
+        margin-right:25px;
+    }
+    #button1, #button2, #button3{
+        float: right;
+        color: #cccccc;
+        margin-top: 15px;
+    }
+    
+    #block2{
+        padding-top: 0px;
+        margin-block-start: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+ 
+    #contentMain{
+        background: #ffffff;
+        padding: 20px;
+        width: 100%;
+        text-align: left;
+        overflow: auto;
+        margin: auto;
+    }
+  }
