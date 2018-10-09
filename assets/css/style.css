@@ -1,10 +1,8 @@
 
-   body{
-       
+   body{   
        background-image: url("../images/back1.png");
        height: 100%;
        margin: 0;
-    
     }
 
    #block{
@@ -25,8 +23,7 @@
 
    
    
-   #block1center{
-     
+   #block1center{ 
        width: 1000px;
        height: 100%;
        margin: auto;
@@ -95,7 +92,6 @@
    }
    #block2{
        padding-top: 40px;
-       margin-block-start: 20px;
        font-family: Arial, Helvetica, sans-serif;
    }
    
@@ -105,6 +101,7 @@
        border-bottom-style: solid;
        border-bottom-width: 2px;
        margin: auto;
+       padding-top: 20px;
    }
 
    #contentMain{
@@ -120,6 +117,7 @@
        height: 200px;
        float: left;
        margin-inline-end: 20px;
+       padding-top: 20px;
    }
 
    #brif{
@@ -131,7 +129,7 @@
     
    h3{
        clear: both;
-       padding-top: 20px;
+       padding-top: 30px;
        font-size: x-large;
 
    }
@@ -275,18 +273,143 @@
   
 
   @media screen and (max-width: 980px) {
+    #block1center{ 
+        width: 90%;
+        height: 100%;
+        margin: auto;
+    }
+    #contentMain{
+        background: #ffffff;
+        padding-top: 10px;
+        width: 90%;
+        text-align: inherit;
+        overflow: auto;
+        margin: auto;
+    }
+
+    #portfolio{
+        font-size: 28px;
+        text-align: left;
+        margin-top: 28px;
+
+    }
     
+
+    #boxes{
+        float: left;
+    }
+    
+    #box1, #box2, #box3, #box4, #box5{
+        width: 45%;
+        margin-top: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+        }
+    #box1, #box3{
+        margin-right: 5%;
+    }
+
+    #box2,#box4{
+        margin-right: 0px;
+    }
+    #cont{
+        width: 90%;
+        padding:0px 0px;
+    }
+   
+   
+
+
+
   }
 
   @media screen and (max-width: 768px) {
+   
+    #block1center{ 
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    #contentMain{
+        background: #ffffff;
+        padding-top: 20px;
+        width: 100%;
+        text-align: inherit;
+        overflow: auto;
+        margin: 0px;
+    }
+    #pic1 {
+        height: 160px;
+        float: left;
+        margin-inline-end: 0px;
+        padding-top: 20px;
+    }
+ 
+    #brif{
+        padding: 0px 20px;
+        text-align: inherit;
+        font-size: 18px;
+        line-height: 25px;
+         }
+     
+    h3{
+        clear: both;
+        padding-top: 0px;
+        font-size: x-large;
+ 
+    }
+ 
+    #skills{
+        font-size: 18px;
+        line-height: 25px;
+        padding-inline-start: 20px;
+        padding-inline-end: 30px;
+    }
+
+    #portfolio{
+        font-size: 28px;
+        text-align: center;
+        margin-top: 20px;
+
+    }
     
-  }
+
+    #boxes{
+        float: left;
+    }
+    
+    #box1, #box2, #box3, #box4, #box5{
+        width: 45%;
+        margin-top: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+        }
+    #box1, #box3{
+        margin-right: 5%;
+    }
+
+    #box2,#box4{
+        margin-right: 0px;
+    }
+    #cont{
+        width: 90%;
+        padding:0px 0px;
+    }
+    #inputbox{
+        height: 15px;
+    }
+    
+    }
+
+ 
+    
 
   @media screen and (max-width: 640px) {
+   
 
     #block1{
         background: #ffffff;
-        height: 90px;
+        height: 80px;
         width: 100%;
         border-bottom: #cccccc;
         border-bottom-style: solid;
@@ -303,7 +426,10 @@
         height: 100%;
         margin: auto;
     }
- 
+    #block2{
+        padding-top: 0px;
+        margin-block-start: 0px; 
+    }
     #name{
         background: #4aaaa5;
         color: #ffffff;
@@ -322,32 +448,97 @@
     }
 
     .buttons{
-        width: 90%;
+        width: 80%;
         align-self: center;
-        margin: 0px;
+        margin: auto;
     }
     
     #button1{
-        margin-right:25px;
+        margin-right:0px;
     }
     #button1, #button2, #button3{
         float: right;
         color: #cccccc;
         margin-top: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 20%;
     }
     
     #block2{
         padding-top: 0px;
+        margin-top: 0px;
         margin-block-start: 0px;
         font-family: Arial, Helvetica, sans-serif;
     }
  
     #contentMain{
         background: #ffffff;
-        padding: 20px;
+        padding: 0px 0px;
         width: 100%;
         text-align: left;
         overflow: auto;
         margin: auto;
     }
+    #contentHeader{
+        margin: auto;
+        text-align: center;
+    }
+    #h2{
+        margin: auto;
+    }
+
+    #pic1{
+        display: none;
+    }
+
+    #brif{
+        margin: 0px;
+        font-size: 14px;
+        padding: 5px 5px 0px 5px;
+    }
+
+    h3{
+        margin: 0px;
+        text-align: left;
+        padding: 0px;
+    }
+
+    #skills{
+        margin: auto;
+        padding-top: 5px;
+        font-size: 14px;
+        text-align: justify;
+    }
+    
+    #portfolio{
+        font-size: 22px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    
+
+    #boxes{
+        clear: both;
+    }
+    
+    #box1, #box2, #box3, #box4, #box5{
+        width: 90%;
+        margin: 0px 5% 15px 5%;
+        }
+    
+    #cont{
+        width: 90%;
+        padding:0px 0px;
+    }
+    #inputbox{
+        height: 15px;
+    }
+    #contSumit{
+        margin-bottom: 20px;
+        margin-left: 35%;
+        width: 30%;
+
+    }
+
   }
